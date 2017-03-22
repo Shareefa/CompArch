@@ -44,4 +44,4 @@ WHEN x86 was 8bit it had:
 
 When in was 16bit:
 
-So like each register has like subregisters in each which provide backward compatibility
+So each register has subregisters in each which provide backward compatibility
