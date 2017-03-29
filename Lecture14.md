@@ -42,3 +42,7 @@ Memory Hierarchy:
 * L3: Main Memory (DRAM)
 * L4: Local secondary storage (local disks)
 * L5: Remote secondary storage (Web servers, distributed file systems)
+
+Caches work because caches have **Locality**:
+* Temporal
+* Spacial
