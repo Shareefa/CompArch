@@ -28,6 +28,17 @@ Static RAM:
 
 Dynamic RAM:
 * Capacitor and transistor
-* Need to be refreshed
+* Need to be refreshed every 10-100ms
 * Slower than SRAM
-* 
+
+
+Memory has Primary Bus
+I/O has Secondary Bus
+
+Memory Hierarchy:
+* L0: Registers
+* L1: Cache(SRAM)
+* L2: Cache(SRAM)
+* L3: Main Memory (DRAM)
+* L4: Local secondary storage (local disks)
+* L5: Remote secondary storage (Web servers, distributed file systems)
