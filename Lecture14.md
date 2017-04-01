@@ -62,3 +62,9 @@ The procedure:
 To avoid misses:
 * Use spacial locality
 * Add the address you accessed **plus bytes around it** (Address to Address + 2^n)
+
+### Vocab
+
+Block Size - the number of bytes of memory you transfer at a time
+
+Cache = Best Effort Hash Table (means we need **Hash Function**)
