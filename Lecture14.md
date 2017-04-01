@@ -46,3 +46,19 @@ Memory Hierarchy:
 Caches work because caches have **Locality**:
 * Temporal
 * Spacial
+
+L1: 8MB
+L2: 64MB
+
+CPU ->(10 Times slower) L1 ->(25??) L2 -> (500 Times Slower)Main memory
+
+The procedure:
+1. Check cache
+2. If hit good
+3. If miss go to next cache or main memory
+4. Repeat till address is found
+5. Take address you accessed and put it in cache
+
+To avoid misses:
+* Use spacial locality
+* Add the address you accessed **plus bytes around it** (Address to Address + 2^n)
