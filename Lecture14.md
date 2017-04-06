@@ -44,8 +44,8 @@ Memory Hierarchy:
 * L5: Remote secondary storage (Web servers, distributed file systems)
 
 Caches work because caches have **Locality**:
-* Temporal
-* Spacial
+* Temporal - Access something over and over again
+* Spacial - Access something close to the last thing accessed 
 
 L1: 8MB
 L2: 64MB
@@ -60,7 +60,7 @@ The procedure:
 5. Take address you accessed and put it in cache
 
 To avoid misses:
-* Use spacial locality
+* Use spacial locality - accessing addresses that are near each other (contiguous)
 * Add the address you accessed **plus bytes around it** (Address to Address + 2^n)
 
 ### Vocab
